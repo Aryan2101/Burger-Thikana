@@ -13,9 +13,6 @@ This website was created for a made up fast food chain company called "Burger Th
 * ### landing page
 ![GitHub Logo](https://github.com/Aryan2101/Burger-Thikana/blob/main/readme%20images/landingpage.png)
 
-* ### about page
-![GitHub Logo](https://github.com/Aryan2101/Burger-Thikana/blob/main/readme%20images/aboutpage.png)
-
 * ### menu
 ![GitHub Logo](https://github.com/Aryan2101/Burger-Thikana/blob/main/readme%20images/menupage.png)
 
