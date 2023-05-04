@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://aryan2101.github.io/Burger-Thikana/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./landingpage_files/style.css">
+    <title>Burger Thikana</title>
+<script type="text/javascript" charset="UTF-8" src="./landingpage_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./landingpage_files/util.js.download"></script></head>
+<body>
+    <!--Navigation bar & hero section below-->
+    <section class="top" id="landingPage">
+        <header>
+            <p><a href="https://aryan2101.github.io/Burger-Thikana/index.html" class="landing-direct">Burger Thikana</a></p>
+            <ul class="navbar">
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/#About">About</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/#Menu">Menu</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/#Contact">Contact</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/login.html">Login</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/register.html">Register</a></li>
+            </ul>
+            <img class="ham" src="./landingpage_files/hamburger.png" id="hamburger_image" alt="hamburger">
+        </header>
+   </section>
+
+   <!---Popup menu-->
+   <section class="disabled" id="popup">
+        <ul class="ham-ul" id="ham_ul">
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/" id="close_popup" class="close-popup">X</a></li>
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/#About">About</a></li>
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/#Menu">Menu</a></li>
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/#Contact">Contact</a></li>
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/login.html">Login</a></li>
+            <li><a href="https://aryan2101.github.io/Burger-Thikana/register.html">Register</a></li>
+        </ul>
+   </section>
+
+   <!--Section that'll contain the hero section and image-->
+    <section class="top-2">
+        <div class="top-2-text">
+            <h1 class="home-header">Enjoy The Feast</h1>
+            <button><a href="https://aryan2101.github.io/Burger-Thikana/#Menu" class="let-me">Learn More</a></button>    
+        </div>
+   </section>
+
+
+    <!--About section below-->
+        <section class="about-section" id="About">
+            <div class="left-right-main">
+                
+        
+                <div class="right">
+                    <h2>About</h2>
+                    <p class="about-text">Enjoy the dishes prepared by our best in class chefs.</p>
+                    <h4 class="opening-times-text">Opening Times: Mon-Sat 08:00-23:00 Sunday Closed</h4>
+                </div>
+
+            </div>
+        </section>
+    
+
+    <!--Menu section below-->
+    <section class="menu-section" id="Menu">
+        <div class="food-container">
+            <div class="food-image1">
+                
+            </div>
+            <h2>Menu</h2>
+            <p class="food1" style="font-size:3vw"><span style="font-size:5vw"><u>Burgers</u></span></p><br>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Chicken Burger</strong> <br> <strong>₹100</strong></span> <br>Enjoy the best chicken burger avaible in the town. Made from fresh sauces as well as best in quality chicken freshly cooked with exotic flavors.!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/Chickenburger.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:5vw"><u>Sides</u></span></p><br>
+
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>French Fries</strong> <br> <strong>₹40</strong></span> <br>Enjoy the best in french fries with customizable flavors. Best in class potatoes for the sweet taste of potatoes with spices!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/frenchFries.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Onion Rings</strong> <br> <strong>₹50</strong></span> <br>Crispy onion rings covered in mixture of wheat and spices. Especially shallow fried for less health issues and offcourse maintaining the great taste as always!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/OnionRings.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Coleslaw</strong> <br> <strong>₹60</strong></span> <br>Most healthiest item for today's people who focus on no oily food consumption. Mixture of crisp and fresh vegetable with sauces and spices targeting the fitness freaks of the society!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/ColeSlaw.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Roasted Corn</strong> <br> <strong>₹40</strong></span> <br>Roasted corn. Aah! one of the great food items also prepared in the homes. But our corn is sweet, juicy and best in quality. Best in class corn boiled and covered up with spices which is able to add a great taste with sweet corn!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/RostedCorn.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:5vw"><u>Drinks</u></span></p><br>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Coca-Cola</strong> <br> <strong>₹20</strong></span> <br>Well while the  burger or french fries or any other food item who just can't forget the coke!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/cocaCola.html">Find more</a></div>
+
+            <p class="food1" style="font-size:3vw"><span style="font-size:7vw"><strong>Sprite</strong> <br> <strong>₹20</strong></span> <br>Our sprite is different. Sprite contains for mint leaves, lemon and spices mixed well in cold temperature water to release the heat from body. To give a quite refreshing experice on hot days to customer!</p><br>
+            <div class="menu-button"><a href="https://aryan2101.github.io/Burger-Thikana/sprite.html">Find more</a></div>
+    
+            <div class="food-image2">
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Contact Form below-->
+    <section class="contact-section" id="Contact">
+        <h1 class="contact-header">Contact</h1>
+        <form action="https://aryan2101.github.io/Burger-Thikana/" method="POST" class="contact-form">
+            <div class="contact-form-container">
+                <input class="firstname-input" placeholder="First Name" id="firstname" autocomplete="off" required="">
+                <input class="lastname-input" placeholder="Last Name" id="lastname" autocomplete="off" required="">
+                <input class="email-input" placeholder="Email" id="email" autocomplete="off" type="email" required="">
+                <textarea class="message-input" placeholder="Message" id="message" autocomplete="off" required=""></textarea>
+            </div>
+        </form>
+        <a class="btn-4" id="submit">Submit</a>
+    </section>
+
+    <script src="./landingpage_files/script.js.download"></script>
+    <script src="./landingpage_files/js"></script>
+    
+
+
+</body></html>

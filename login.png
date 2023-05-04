@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://aryan2101.github.io/Burger-Thikana/login.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login_files/style.css">
+    <title>Login</title>
+</head>
+<body>
+     <!--Navigation bar & hero section below-->
+     <section class="top" id="landingPage">
+        <header>
+            <p><a href="https://aryan2101.github.io/Burger-Thikana/index.html#landingPage" class="landing-direct">Burger Thikana</a></p>
+            <ul class="navbar">
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#About">About</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#Menu">Menu</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#Contact">Contact</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/login.html">Login</a></li>
+                <li><a href="https://aryan2101.github.io/Burger-Thikana/register.html">Register</a></li>
+            </ul>
+            <img class="ham" src="./login_files/hamburger.png" id="hamburger_image" alt="hamburger">
+        </header>
+    </section>    
+
+    <!---Popup menu-->
+   <section class="disabled" id="popup">
+    <ul class="ham-ul" id="ham_ul">
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/login.html" id="close_popup" class="close-popup">X</a></li>
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#About">About</a></li>
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#Menu">Menu</a></li>
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/index.html#Contact">Contact</a></li>
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/login.html">Login</a></li>
+        <li><a href="https://aryan2101.github.io/Burger-Thikana/register.html">Register</a></li>
+    </ul>
+</section>
+
+    <!--Section that'll contain the hero section and image-->
+    <section class="top-2">
+        <div class="login-form-container">
+            <form action="https://aryan2101.github.io/Burger-Thikana/includes/login.inc.php" method="post" class="register-form">
+                <input placeholder="Name" name="name" class="register-name" autocomplete="off" required="">
+                <input placeholder="email" name="email" class="register-email" type="email" autocomplete="off" required="">
+                <input placeholder="password" name="password" type="password" class="register-password" required="">
+                <button class="register-btn" name="submit">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./login_files/script.js.download"></script>
+
+
+Footer
+</body></html>
