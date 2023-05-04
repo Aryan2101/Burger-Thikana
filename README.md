@@ -12,16 +12,20 @@ This website was created for a made up fast food chain company called "Burger Th
 ## pages
 * ### landing page
 
-![landingpage](https://user-images.githubusercontent.com/87615477/236119715-bb3b9370-c54a-461f-acb2-e6845c7962ba.png)
+![landingpage](https://user-images.githubusercontent.com/87615477/236121186-92e83be5-541b-4419-9831-ee6668b111f5.jpeg)
 
-* ### menu
 
-![menupage](https://user-images.githubusercontent.com/87615477/236119734-9e68a58d-0e3b-48a5-a058-728ff2b43f19.png)
+* ### about
+
+![about](https://user-images.githubusercontent.com/87615477/236121191-9169e625-f097-4db1-8f53-db09ff8ea7de.jpeg)
+
 
 * ### contact
-![contact](https://user-images.githubusercontent.com/87615477/236119748-357d3f79-39e3-4780-b15d-a7a41e9e352e.png)
+
+![contact](https://user-images.githubusercontent.com/87615477/236121219-b38f09b2-c55d-4b84-bc6b-32a8fd27fe07.jpeg)
 
 
 * ### Empty login page
 
-![login](https://user-images.githubusercontent.com/87615477/236119782-f9e0b2be-8f9a-4a87-b96e-cd1cf200a8e9.png)
+
+![login](https://user-images.githubusercontent.com/87615477/236121230-2994741b-0386-4361-93ab-f8b5819427d9.jpeg)
