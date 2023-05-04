@@ -1,0 +1,1024 @@
+* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+/* Reset page in SCSS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Setting the font-family to 'bangers' for every text element*/
+body {
+  font-size: 100%;
+  font-family: 'Bangers', cursive;
+}
+
+h2 {
+  color: white;
+  font-size: 20vw;
+  font-family: 'Bangers', cursive;
+  margin: 0px 30px;
+  text-shadow: 8px 8px black;
+}
+
+.top-2 {
+  background-image: url(image2.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top-2 .top-2-text {
+  max-width: 600%;
+  width: calc(100% - 40px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top-2 .top-2-text .home-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px auto;
+  gap: 5px;
+}
+
+.top-2 .top-2-text .profile-image-input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.top-2 .top-2-text .profile-image-input-container .upload-file-input {
+  max-width: 270px;
+  color: whitesmoke;
+  /* Color of the text*/
+  font-size: 20px;
+  /*25px Setting the font size of the text */
+  font-family: 'Bangers', cursive;
+  background: black;
+  padding: 15px;
+  border: 0px solid white;
+  opacity: 85%;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.top-2 .top-2-text .profile-image-input-container .upload-file-submit {
+  color: whitesmoke;
+  /* Color of the text*/
+  font-size: 25px;
+  /* Setting the font size of the text */
+  font-family: 'Bangers', cursive;
+  background: black;
+  padding: 15px;
+  border: 0px solid white;
+  opacity: 85%;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.top-2 .home-header {
+  color: white;
+  font-size: 13vw;
+  font-family: 'Bangers', cursive;
+  text-shadow: 10px 10px black;
+}
+
+.top-2 .let-me {
+  color: white;
+  text-decoration: none;
+}
+
+.top-2:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.top-2:active {
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+}
+
+.menu-button {
+  background: white;
+  font-family: 'Bangers', cursive;
+  margin: 10px 0px 20px 0px;
+  padding: 15px;
+  border: 10px solid black;
+  opacity: 85%;
+  border-radius: 20px;
+}
+
+.menu-button a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5vw;
+}
+
+.menu-button:hover {
+  opacity: 100%;
+  cursor: pointer;
+  letter-spacing: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+button {
+  color: whitesmoke;
+  /* Color of the text*/
+  font-size: 45px;
+  /* Setting the font size of the text */
+  font-family: 'Bangers', cursive;
+  background: black;
+  padding: 15px;
+  border: 0px solid white;
+  opacity: 85%;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+button:active {
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+  position: fixed;
+  z-index: 999;
+}
+
+.top header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto auto;
+  max-width: 1028px;
+  width: calc(100% - 30px);
+  height: 100%;
+}
+
+.top header p {
+  font-family: 'Bangers', cursive;
+  font-size: 35px;
+}
+
+.top header p .landing-direct {
+  text-decoration: none;
+  color: white;
+}
+
+.top header p .landing-direct:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+}
+
+.top header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+}
+
+.top header .navbar li {
+  list-style: none;
+  margin: 0px 5px;
+}
+
+.top header .navbar li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.top header .navbar li:hover {
+  border-bottom: 2px solid white;
+}
+
+.top header .ham {
+  height: calc(100% - 5px);
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .top header .ham {
+    display: inline-block;
+    -webkit-box-shadow: 1px 1px 11px black;
+            box-shadow: 1px 1px 11px black;
+  }
+  .top header:hover {
+    cursor: pointer;
+  }
+  .top header .navbar {
+    display: none;
+    background: red;
+  }
+}
+
+.popup {
+  position: fixed;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.popup .ham-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-transition: -webkit-transform 1s ease-in;
+  transition: -webkit-transform 1s ease-in;
+  transition: transform 1s ease-in;
+  transition: transform 1s ease-in, -webkit-transform 1s ease-in;
+  -webkit-transform: translate(-6000px, 0px);
+          transform: translate(-6000px, 0px);
+}
+
+.popup .ham-ul .close-popup {
+  color: red;
+}
+
+.popup li {
+  list-style: none;
+  margin: 10px;
+}
+
+.popup li a {
+  text-decoration: none;
+  font-size: 60px;
+  color: black;
+}
+
+.popup li:hover {
+  border-bottom: 9px solid orange;
+}
+
+.disabled {
+  display: none;
+  background: black;
+}
+
+/*About Section BELOW*/
+.about-section {
+  background: #ffff71;
+  height: auto;
+}
+
+.about-section .about-text {
+  color: black;
+  font-size: 4vw;
+  font-family: 'Bangers', cursive;
+}
+
+.about-section .opening-times-text {
+  color: black;
+  font-size: 5vw;
+  font-family: 'Bangers', cursive;
+  text-shadow: 5px 5px white;
+  margin: 10px 100px;
+}
+
+.about-section .left-right-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  max-width: 1028px;
+  width: calc(100% - 50px);
+  margin: 0px auto;
+}
+
+.about-section .left-right-main .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about-section .left-right-main .left {
+  position: static;
+  overflow: visible;
+}
+
+.about-section .left-right-main .google-api {
+  max-width: 700px;
+  height: 300px;
+  width: calc(100% - 50px);
+  position: static;
+  overflow: visible;
+  color: black;
+  text-shadow: 5px 5px white;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px 19px black;
+          box-shadow: 1px 1px 19px black;
+  margin: 45px 100px;
+}
+
+.login-form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 500px;
+  width: calc(100% - 50px);
+  min-height: 100px;
+  margin: 25px 0px;
+}
+
+.login-form-container .register-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px 15px;
+  max-width: 600px;
+  width: calc(100% - 20px);
+  min-height: 350px;
+  position: absolute;
+  margin: 25px 0px;
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+  border-radius: 25px;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0.8)), color-stop(50%, rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+}
+
+.login-form-container .update-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px 15px;
+  max-width: 600px;
+  width: calc(100% - 20px);
+  min-height: 450px;
+  position: absolute;
+  margin: 25px 0px;
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+  border-radius: 25px;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0.8)), color-stop(50%, rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+}
+
+.login-form-container .register-name, .login-form-container .register-email, .login-form-container .register-password {
+  max-width: 600px;
+  width: calc(100% - 50px);
+  min-height: 70px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Bangers', cursive;
+  outline: none;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.login-form-container .register-btn {
+  max-width: 600px;
+  width: calc(100% - 10px);
+  min-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Bangers', cursive;
+  background: #ffff56;
+  color: black;
+  opacity: 80%;
+  border-radius: 30px;
+}
+
+.login-form-container .register-btn:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.login-form-container .register-btn:active {
+  -webkit-box-shadow: 1px 1px 16px white;
+          box-shadow: 1px 1px 16px white;
+}
+
+/* Contact Form BELOW*/
+.contact-section {
+  background-color: #ffff71;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-section textarea {
+  max-width: 500px;
+  height: 150px;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Bangers', cursive;
+  outline: none;
+  margin: 10px auto;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.contact-section input {
+  max-width: 500px;
+  height: 80px;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Bangers', cursive;
+  outline: none;
+  margin: 10px auto;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.contact-section .btn-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 25%;
+  width: calc(100% - 0px);
+  min-height: 50px;
+  font-size: 7vw;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  background: black;
+  text-align: center;
+  opacity: 90%;
+  margin: 70px auto;
+}
+
+.contact-section .btn-4:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.contact-section .btn-4:active {
+  -webkit-box-shadow: 1px 1px 11px black;
+          box-shadow: 1px 1px 11px black;
+}
+
+.contact-section .contact-form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-section .contact-header {
+  color: black;
+  font-size: 8vw;
+  font-family: 'Bangers', cursive;
+  text-shadow: 5px 5px white;
+}
+
+/*Food Menu */
+.menu-section {
+  background: black;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  text-align: center;
+}
+
+.menu-section .food-image1 {
+  background-image: url(food-image1.jpg);
+  background-size: cover;
+  max-width: 1000px;
+  min-height: 100%;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.menu-section .food-image2 {
+  background-image: url(food-image2.jpg);
+  background-size: cover;
+  max-width: 1000px;
+  min-height: 100%;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.food-contain {
+  background: black;
+}
+
+.food-contain .chicken-burger-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(chickenBurger.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .chicken-burger-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .chicken-burger-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .chicken-burger-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+
+.food-contain .French-Fries-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(frenchFries.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .French-Fries-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .French-Fries-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .French-Fries-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .Onion-Rings-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(onionRings.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .Onion-Rings-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .Onion-Rings-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .Onion-Rings-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .coleslaw-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(coleslaw.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .coleslaw-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .coleslaw-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .coleslaw-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .corn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(corn.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .corn-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .corn-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .corn-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .cocaCola-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(cocaCola.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .cocaCola-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .cocaCola-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .cocaCola-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .sprite-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(sprite.jpg);
+  background-size: cover;
+  min-height: 90%;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+.food-contain .sprite-container .chicken-burger-description .food-title {
+  font-family: 'Bangers', cursive;
+  margin: 10px;
+  font-size: 16vw;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  text-align: center;
+}
+
+.food-contain .sprite-container .chicken-burger-description .food-title-description {
+  font-family: 'Bangers', cursive;
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+.food-contain .sprite-container .chicken-burger-description .food-title-price {
+  font-family: 'Bangers', cursive;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+/*# sourceMappingURL=style.css.map */
